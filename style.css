@@ -1,25 +1,12 @@
- 
+
 body {
             margin: 0;
             font-family: Arial, sans-serif;
   .social-icons {
     margin-top: 10px;
-}
-
-.social-icons a {
-    margin: 0 10px;
-    color: white;
-    font-size: 1.5em;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover {
-    color: #ff9800; /* Change this to the hover color you prefer */
-}
         }
         .hero {
-            background: linear-gradient(to right, #ff5722, #ff9800);
+            background-image: url(banner.jpg);
             color: white;
             text-align: center;
             padding: 50px 20px;
@@ -56,6 +43,7 @@ body {
             color: gold;
         }
         footer {
+
             text-align: center;
             padding: 20px;
             background: #333;
@@ -63,6 +51,7 @@ body {
             position: relative;
         }
         .footer-logo {
+
             width: 50px;
             display: block;
             margin: 0 auto 10px;
@@ -71,7 +60,7 @@ body {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background: #ff5722;
+            background: white;
             color: white;
             border: none;
             padding: 10px 15px;
@@ -83,7 +72,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f9f9f9;
+    background-color: white;
 }
 
 header {
@@ -200,8 +189,10 @@ h2 {
 }
 
 footer {
-    background: black;
-    color: white;
+background-image: url(banner2.jpg);
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
